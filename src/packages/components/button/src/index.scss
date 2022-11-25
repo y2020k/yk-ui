@@ -4,7 +4,7 @@ button {
   outline: none;
 }
 
-.my-button {
+.yk-button {
   padding: 8px 12px;
   overflow: hidden;
   border-radius: 6px;
@@ -22,7 +22,7 @@ button {
   box-sizing: border-box;
 }
 
-.my-button-type-default, .my-button-type-primary {
+.yk-button-type-default, .yk-button-type-primary {
   background: $myPrimaryColor;
   color: $white;
   &:hover{
@@ -30,12 +30,12 @@ button {
   }
 }
 
-.my-button-type-error {
+.yk-button-type-error {
   background: $myErrorColor;
   color: $white;
 }
 
-.we-button-disabled {
+.yk-button-disabled {
   background-color: #f7f7fa;
   cursor: not-allowed;
   color: $black;

@@ -1,5 +1,35 @@
 {
-  "name": "myui",
+  "name": "@yk2022/yk-ui",
+  "private": false,
+  "type": "module",
+  "author": "1140566120@qq.com",
+  "main": "./lib/yk-ui.umd.js",
+  "module": "./lib/yk-ui.mjs",
+  "description": "YK UI - A Vue.js 3 UI library, @yk2022/yk-ui",
+  "keywords": [
+    "@yk2022/yk-ui"
+  ],
+  "homepage": "https://gitee.com/y2020k/yk-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/y2020k/yk-ui.git"
+  },
+  "files": [
+    "lib/*",
+    "packages/*",
+    "Readme.md",
+    "package.json"
+  ],
+  "exports": {
+    ".": {
+      "import": "./lib/yk-ui.mjs",
+      "require": "./lib/yk-ui.umd.js"
+    },
+    "./lib/style.css": "./lib/style.css"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -21,7 +51,7 @@
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
     "@types/jsdom": "^20.0.0",
-    "@types/node": "^16.11.68",
+    "@types/node": "^16.18.3",
     "@vitejs/plugin-vue": "^3.1.2",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.0",

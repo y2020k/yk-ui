@@ -16,7 +16,7 @@ const install = function (app: App) {
   Object.keys(components).forEach((name) => {
     let componentName = name.replace(/\.\/components\/([^/]*)\/.*\.vue$/, "$1");
     componentName =
-      "My" + componentName.slice(0, 1).toUpperCase() + componentName.slice(1);
+      "Yk" + componentName.slice(0, 1).toUpperCase() + componentName.slice(1);
     const component = components[name];
     app.component(componentName, component);
   });

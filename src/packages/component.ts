@@ -7,9 +7,10 @@ author:俞棵
 remark:
 */
 
-import MyButton from "@/packages/components/button";
+import YkButton from "@/packages/components/button";
+import YkInput from "@/packages/components/input";
 
-const modulesFiles: Record<string, typeof MyButton> = import.meta.glob(
+const modulesFiles: Record<string, typeof YkButton> = import.meta.glob(
   "./components/**/src/index.vue",
   {
     import: "default",
@@ -19,4 +20,4 @@ const modulesFiles: Record<string, typeof MyButton> = import.meta.glob(
 
 export default modulesFiles;
 
-export { MyButton };
+export { YkButton, YkInput };

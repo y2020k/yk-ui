@@ -23,9 +23,9 @@ const props = withDefaults(
 );
 
 const classString = computed(() => [
-  "my-button",
-  `my-button-type-${props.type}`,
-  props.disabled ? "my-button-disabled" : "",
+  "yk-button",
+  `yk-button-type-${props.type}`,
+  props.disabled ? "yk-button-disabled" : "",
 ]);
 </script>
 

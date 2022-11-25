@@ -9,10 +9,10 @@ remark:
 
 import type { App } from "vue";
 
-import MyButton from "./src/index.vue";
-MyButton.install = function (app: App) {
-  app.component(MyButton.name, MyButton);
+import YkButton from "./src/index.vue";
+YkButton.install = function (app: App) {
+  app.component(YkButton.name, YkButton);
   return app;
 };
 
-export default MyButton;
+export default YkButton;

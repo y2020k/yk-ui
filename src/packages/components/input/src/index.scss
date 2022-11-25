@@ -1,0 +1,60 @@
+@import "../../../theme/color.variables";
+
+input {
+  outline: none;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+textarea {
+  -webkit-appearance: none;
+}
+
+.yk-input-wrapper {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 11px;
+  font-size: 14px;
+  line-height: 1.517;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+
+  .yk-input {
+    border: none;
+
+    &::placeholder {
+      color: #d9d9d9;
+    }
+
+    &:placeholder-shown {
+      //border: 1px solid red;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .yk-prefix,
+  .yk-suffix {
+    display: flex;
+    align-items: center;
+    flex: none;
+  }
+
+  .yk-prefix {
+    margin-right: 4px;
+  }
+
+  .yk-suffix {
+    margin-left: 4px;
+  }
+
+  &:hover {
+    border-color: $myPrimaryColorHover;
+  }
+}
+
+.yk-input-wrapper:focus,
+.yk-input-wrapper-focused{
+  border-color: $myPrimaryColorBorder;
+  box-shadow: 0 0 0 2px $myPrimaryColorOutline;
+}
