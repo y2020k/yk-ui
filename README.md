@@ -47,14 +47,14 @@ npm run test:e2e
 npm run lint
 ```
 
-### Import
+### 引入
 
 ```typescript
 import MyUI from "@/packages";
 const app = createApp(App).use(MyUI).mount("#app");
 ```
 
-### Button
+### Button 按钮
 
 ```vue
 <template>
@@ -62,7 +62,7 @@ const app = createApp(App).use(MyUI).mount("#app");
 </template>
 ```
 
-### Input
+### Input 输入框
 
 ```vue
 
