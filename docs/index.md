@@ -11,7 +11,7 @@ hero:
   tagline: 初次创建的UI库
   image:
     src: /logo.png
-    alt: yu-ui
+    alt: yk-ui
   actions:
     - theme: brand
       text: 快速开始

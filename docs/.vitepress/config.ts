@@ -10,7 +10,10 @@ remark:
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base: "/docs",
+  // 本地使用
+  base: "/",
+  // github文档地址发布使用
+  // base: "https://y2020k.github.io/yk-ui.github.io/",
   // 网站标题
   title: "Yk UI",
   // 网站描述
